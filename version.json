@@ -1,35 +1,58 @@
 {
-  "version": "1.0.11",
-  "notes": "Fixes the reason updates kept failing silently. Needs one manual install; updates after this work in the app.",
+  "version": "1.0.12",
+  "notes": "Emotional state that shapes behaviour, memory you can interrogate directly, her own persistent preferences, and a real sense of when things happened.",
   "changelog": {
-    "headline": "What's new in 1.0.11",
+    "headline": "What's new in 1.0.12",
     "sections": [
       {
-        "title": "Updates actually work now",
+        "title": "She has a state now",
         "items": [
-          "Updates were failing silently every time — the app would download, restart, and come back on the old version. The space in the \"ELLA Zero\" folder name was breaking the command that copies new files into place.",
-          "This version needs a manual install once, because the version you're on can't fix its own updater. After that, updates happen in the app."
+          "An emotional state is computed before language rather than painted on afterwards, so it shapes what she says and whether she says it.",
+          "A wound isn't undone by an apology, trust builds slower than it breaks, and a bad mood is never an excuse to stop doing the work."
         ]
       },
       {
-        "title": "Also included, from 1.0.10",
+        "title": "She thinks twice",
         "items": [
-          "Chess teacher mode explains every move and suggests your best next one.",
-          "Search checks how old an article is before calling something current, and filters out junk results.",
-          "When she says she'll check something, she actually does it and answers in the same breath.",
-          "She no longer thinks you're still on a page you already left."
+          "Sometimes a second thought lands after she has already answered, the way people actually talk."
+        ]
+      },
+      {
+        "title": "Memory you can actually ask",
+        "items": [
+          "\"What are my skills?\" returns the whole list instead of the few that happened to share words with your question.",
+          "She can thread everything you have told her about one person in the order you said it, and tell you how long it has been."
+        ]
+      },
+      {
+        "title": "She keeps her own taste",
+        "items": [
+          "Her preferences persist instead of being improvised fresh each time — and only ones she has genuinely stated, never invented to fill a gap."
+        ]
+      },
+      {
+        "title": "She knows when",
+        "items": [
+          "Times are attached to what you said and when she was told things, so \"you mentioned this back in July\" comes from a real record."
+        ]
+      },
+      {
+        "title": "Voice and size",
+        "items": [
+          "Speech generation moves to the graphics card when there is room, fixing the stutter on longer replies.",
+          "The download is smaller than last version despite everything above."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. This update only replaces the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-08-02T21:00:00Z",
+  "published_at": "2026-08-17T12:00:00Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.11/manifest-1.0.11.json",
+  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.12/manifest-1.0.12.json",
   "delta": {
-    "1.0.10": {
-      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.11/delta-1.0.10-to-1.0.11.zip",
-      "size": 108606946
+    "1.0.11": {
+      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.12/delta-1.0.11-to-1.0.12.zip",
+      "size": 135130856
     }
   }
 }
