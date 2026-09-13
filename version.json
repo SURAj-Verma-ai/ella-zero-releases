@@ -1,58 +1,52 @@
 {
-  "version": "1.0.12",
-  "notes": "Emotional state that shapes behaviour, memory you can interrogate directly, her own persistent preferences, and a real sense of when things happened.",
+  "version": "1.0.14",
+  "notes": "Updates now install themselves. This is the last version you should ever need to download by hand.",
   "changelog": {
-    "headline": "What's new in 1.0.12",
+    "headline": "What's new in 1.0.14",
     "sections": [
       {
-        "title": "She has a state now",
+        "title": "Updates that take care of themselves",
         "items": [
-          "An emotional state is computed before language rather than painted on afterwards, so it shapes what she says and whether she says it.",
-          "A wound isn't undone by an apology, trust builds slower than it breaks, and a bad mood is never an excuse to stop doing the work."
+          "New versions download quietly in the background and install the next time ELLA restarts, or right away if you tap Restart to update.",
+          "A typical update is now a few megabytes instead of a hundred, because only the files that actually changed are sent.",
+          "Downloads pick up where they left off if your connection drops, instead of starting over.",
+          "Every file is checked against a signed list before anything on your PC is touched, and if a new version fails to start, the previous one is put back automatically.",
+          "If a small update can't be applied for any reason, the full installer runs on its own instead. Either way, nothing to download manually."
         ]
       },
       {
-        "title": "She thinks twice",
+        "title": "Also in this release",
         "items": [
-          "Sometimes a second thought lands after she has already answered, the way people actually talk."
-        ]
-      },
-      {
-        "title": "Memory you can actually ask",
-        "items": [
-          "\"What are my skills?\" returns the whole list instead of the few that happened to share words with your question.",
-          "She can thread everything you have told her about one person in the order you said it, and tell you how long it has been."
-        ]
-      },
-      {
-        "title": "She keeps her own taste",
-        "items": [
-          "Her preferences persist instead of being improvised fresh each time — and only ones she has genuinely stated, never invented to fill a gap."
-        ]
-      },
-      {
-        "title": "She knows when",
-        "items": [
-          "Times are attached to what you said and when she was told things, so \"you mentioned this back in July\" comes from a real record."
-        ]
-      },
-      {
-        "title": "Voice and size",
-        "items": [
-          "Speech generation moves to the graphics card when there is room, fixing the stutter on longer replies.",
-          "The download is smaller than last version despite everything above."
+          "A Personality switch in Settings, and a voice engine that only loads when spoken replies are on, so starting up is lighter.",
+          "Calendar changes report honestly: when a date can't be understood she asks instead of guessing today, and group changes say exactly what was done.",
+          "Mercury joins the line-up of models she can think with."
         ]
       }
     ],
-    "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. This update only replaces the app's own program files. Nothing you have created is touched or deleted."
+    "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. Updates only replace the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-08-17T12:00:00Z",
-  "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.12/manifest-1.0.12.json",
+  "published_at": "2026-09-13T14:26:08Z",
+  "download_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/latest",
+  "manifest_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/manifest-1.0.14.json",
+  "manifest_sha256": "ff9a1155f7a6e5ffa77cfa5c858a545411188eb000a2dfd9cd956073661e6255",
   "delta": {
-    "1.0.11": {
-      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.12/delta-1.0.11-to-1.0.12.zip",
-      "size": 135130856
+    "1.0.13": {
+      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/delta-1.0.13-to-1.0.14.zip",
+      "size": 135401310,
+      "sha256": "f04b2aa3ab6d811f10aa8e3c79320bef81697cb61ef125519f2ea249b070002f"
+    },
+    "1.0.12": {
+      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/delta-1.0.13-to-1.0.14.zip",
+      "size": 135401310,
+      "sha256": "f04b2aa3ab6d811f10aa8e3c79320bef81697cb61ef125519f2ea249b070002f"
     }
-  }
+  },
+  "installer": {
+    "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/ELLA-Zero-Setup-1.0.14.exe",
+    "size": 1451020314,
+    "sha256": "ea35aa9719098d0053a74e8a551c0b58ef16d7e8c4bdd72f80a34bdb3693f045"
+  },
+  "full_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/full-1.0.14.zip",
+  "full_size": 1791495190,
+  "full_sha256": "495aec884f37886d9cff07bbaad147a3709e912de15d0395a692a83740acbb66"
 }
