@@ -1,57 +1,61 @@
 {
-  "version": "1.0.15",
-  "notes": "Your devices can now find each other, the floating dot is lighter on your machine, and Settings feels calmer.",
+  "version": "1.0.16",
+  "notes": "ELLA Zero is now XiteAI OS1. Same app, new name, and updates now take care of themselves.",
   "changelog": {
-    "headline": "What's new in 1.0.15",
+    "headline": "Introducing XiteAI OS1",
     "sections": [
       {
-        "title": "Ecosystem: your devices, one tree",
+        "title": "A new name",
         "items": [
-          "Every machine running ELLA on your wifi can join a single tree, with one device as admin.",
-          "Pairing is a nine-digit code shown on the Ecosystem page. The admin types another device's code to add it straight away, or a device types the admin's code to ask to join. The code burns the moment it's used.",
-          "The admin names every device — Dad's PC, the studio laptop — and the tree shows on all of them, with who is admin and who is reachable right now.",
-          "Everything stays on your network. No account, no cloud, nobody in between. After pairing, the devices trust a key only they hold.",
-          "Controlling one device from another is coming next; this release is the connection.",
-          "Windows will ask once whether ELLA may talk on your private network. Say yes so your other devices can find this one."
+          "ELLA Zero is now XiteAI OS1. Nothing about how it works changes, and if you already had it installed, this update applies itself like any other — your chats, memory, notes and settings carry over exactly as they were."
         ]
       },
       {
-        "title": "The floating dot, lighter",
+        "title": "What it does",
         "items": [
-          "The dot now properly rests when you step away and wakes itself for an alarm — it no longer sits there burning battery and CPU for nothing.",
-          "Voice runs through one dedicated process instead of competing with everything else, so Windows can no longer throttle it mid-sentence.",
-          "Long replies no longer cut off partway through speaking."
+          "Talk to it with no wake word, or type — it hears you, remembers what you tell it, and recalls it later without being asked, with the real date attached to every fact.",
+          "Live markets, weather, news, and real web search for anything current.",
+          "Calendar, tasks, reminders, alarms, timers and Focus sessions, all managed by voice or text.",
+          "Notes, a real file workspace, and reading your actual documents — Word, PDF, Excel, PowerPoint.",
+          "Chess against a real engine with a teacher mode, plus jokes, riddles, and running tallies it keeps on its own.",
+          "Your devices, one tree: pair every machine on your wifi with a nine-digit code, no account or cloud involved."
         ]
       },
       {
-        "title": "Settings, lighter",
+        "title": "Updates that take care of themselves",
         "items": [
-          "The whole Settings window has been redrawn flatter and quieter, and long lists — memory especially — now scroll smoothly instead of stuttering.",
-          "Small visual polish across notes, alarms and the games list."
+          "New versions download quietly in the background and install the next time it restarts.",
+          "A typical update is a few megabytes, not hundreds, because only the files that actually changed are sent.",
+          "Every file is checked against a signed list before anything on your PC is touched, and if a new version fails to start, the previous one is put back automatically."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. Updates only replace the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-09-16T16:31:16Z",
+  "published_at": "2026-09-16T19:27:57Z",
   "download_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.15/manifest-1.0.15.json",
-  "manifest_sha256": "1b7764bef027a021856b654c8c6d36d646141ba9ba55c07817ba03bc77a40ecf",
+  "manifest_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.16/manifest-1.0.16.json",
+  "manifest_sha256": "87d988099109243657d385d12fe5c6b4d020a411ea67e0fe1d0f74e12b1c6f4b",
   "delta": {
+    "1.0.15": {
+      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.16/delta-1.0.15-to-1.0.16.zip",
+      "size": 4573820,
+      "sha256": "ab364324c4aa53bb1764366916ff950eb90d1814bab5c0fab44e5d3ce33badce"
+    },
     "1.0.14": {
-      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.15/delta-1.0.14-to-1.0.15.zip",
-      "size": 3228118,
-      "sha256": "feb87bdba02323dc2c541fbbc781e09c342e784ac76a605ee882ba6afd871ffa"
+      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.16/delta-1.0.14-to-1.0.16.zip",
+      "size": 6004549,
+      "sha256": "6514ce717f272a265a05d65645201b7004ce3f539e5f5e61002bd058c18e1265"
     },
     "1.0.13": {
-      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.15/delta-1.0.13-to-1.0.15.zip",
-      "size": 133832831,
-      "sha256": "589505ab2c96af491a898d008e3df808b1bec7f3f465e52037a441b1f0eb4546"
+      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.16/delta-1.0.13-to-1.0.16.zip",
+      "size": 131195096,
+      "sha256": "6dcd050a6879defa0e8fc8f4ed7ce30889f8dd8433dde5fc1d88bac5823cd346"
     }
   },
   "installer": {
-    "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.15/ELLA-Zero-Setup-1.0.15.exe",
-    "size": 1450067537,
-    "sha256": "17e4d7d39098d0d4b960565b7c6eb64c1f7e1768e393f00d9460bc5feb149550"
+    "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.16/XiteAI-OS1-Setup-1.0.16.exe",
+    "size": 1449629961,
+    "sha256": "88e43d1d448ccbe0f990f6f2a65547003bcdec308465582bc5b7c2cb18807100"
   }
 }
