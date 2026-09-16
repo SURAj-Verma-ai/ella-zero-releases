@@ -1,52 +1,57 @@
 {
-  "version": "1.0.14",
-  "notes": "Updates now install themselves. This is the last version you should ever need to download by hand.",
+  "version": "1.0.15",
+  "notes": "Your devices can now find each other, the floating dot is lighter on your machine, and Settings feels calmer.",
   "changelog": {
-    "headline": "What's new in 1.0.14",
+    "headline": "What's new in 1.0.15",
     "sections": [
       {
-        "title": "Updates that take care of themselves",
+        "title": "Ecosystem: your devices, one tree",
         "items": [
-          "New versions download quietly in the background and install the next time ELLA restarts, or right away if you tap Restart to update.",
-          "A typical update is now a few megabytes instead of a hundred, because only the files that actually changed are sent.",
-          "Downloads pick up where they left off if your connection drops, instead of starting over.",
-          "Every file is checked against a signed list before anything on your PC is touched, and if a new version fails to start, the previous one is put back automatically.",
-          "If a small update can't be applied for any reason, the full installer runs on its own instead. Either way, nothing to download manually."
+          "Every machine running ELLA on your wifi can join a single tree, with one device as admin.",
+          "Pairing is a nine-digit code shown on the Ecosystem page. The admin types another device's code to add it straight away, or a device types the admin's code to ask to join. The code burns the moment it's used.",
+          "The admin names every device — Dad's PC, the studio laptop — and the tree shows on all of them, with who is admin and who is reachable right now.",
+          "Everything stays on your network. No account, no cloud, nobody in between. After pairing, the devices trust a key only they hold.",
+          "Controlling one device from another is coming next; this release is the connection.",
+          "Windows will ask once whether ELLA may talk on your private network. Say yes so your other devices can find this one."
         ]
       },
       {
-        "title": "Also in this release",
+        "title": "The floating dot, lighter",
         "items": [
-          "A Personality switch in Settings, and a voice engine that only loads when spoken replies are on, so starting up is lighter.",
-          "Calendar changes report honestly: when a date can't be understood she asks instead of guessing today, and group changes say exactly what was done.",
-          "Mercury joins the line-up of models she can think with."
+          "The dot now properly rests when you step away and wakes itself for an alarm — it no longer sits there burning battery and CPU for nothing.",
+          "Voice runs through one dedicated process instead of competing with everything else, so Windows can no longer throttle it mid-sentence.",
+          "Long replies no longer cut off partway through speaking."
+        ]
+      },
+      {
+        "title": "Settings, lighter",
+        "items": [
+          "The whole Settings window has been redrawn flatter and quieter, and long lists — memory especially — now scroll smoothly instead of stuttering.",
+          "Small visual polish across notes, alarms and the games list."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. Updates only replace the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-09-13T14:26:08Z",
+  "published_at": "2026-09-16T13:56:00Z",
   "download_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/manifest-1.0.14.json",
-  "manifest_sha256": "ff9a1155f7a6e5ffa77cfa5c858a545411188eb000a2dfd9cd956073661e6255",
+  "manifest_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.15/manifest-1.0.15.json",
+  "manifest_sha256": "5ffbd1436e391474c05b870d02eeb5f1bbd6d151d5f2ca613ece9eadec79bcf6",
   "delta": {
-    "1.0.13": {
-      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/delta-1.0.13-to-1.0.14.zip",
-      "size": 135401310,
-      "sha256": "f04b2aa3ab6d811f10aa8e3c79320bef81697cb61ef125519f2ea249b070002f"
+    "1.0.14": {
+      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.15/delta-1.0.14-to-1.0.15.zip",
+      "size": 3228118,
+      "sha256": "feb87bdba02323dc2c541fbbc781e09c342e784ac76a605ee882ba6afd871ffa"
     },
-    "1.0.12": {
-      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/delta-1.0.13-to-1.0.14.zip",
-      "size": 135401310,
-      "sha256": "f04b2aa3ab6d811f10aa8e3c79320bef81697cb61ef125519f2ea249b070002f"
+    "1.0.13": {
+      "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.15/delta-1.0.13-to-1.0.15.zip",
+      "size": 133832831,
+      "sha256": "589505ab2c96af491a898d008e3df808b1bec7f3f465e52037a441b1f0eb4546"
     }
   },
   "installer": {
-    "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/ELLA-Zero-Setup-1.0.14.exe",
-    "size": 1451020314,
-    "sha256": "ea35aa9719098d0053a74e8a551c0b58ef16d7e8c4bdd72f80a34bdb3693f045"
-  },
-  "full_url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.14/full-1.0.14.zip",
-  "full_size": 1791495190,
-  "full_sha256": "495aec884f37886d9cff07bbaad147a3709e912de15d0395a692a83740acbb66"
+    "url": "https://github.com/SURAj-Verma-ai/ella-zero-releases/releases/download/v1.0.15/ELLA-Zero-Setup-1.0.15.exe",
+    "size": 1450067537,
+    "sha256": "17e4d7d39098d0d4b960565b7c6eb64c1f7e1768e393f00d9460bc5feb149550"
+  }
 }
